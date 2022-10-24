@@ -16,7 +16,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: fusio/fusio
+          images: fusio/apps-swaggerui
           tags: |
             type=ref,event=branch
             type=ref,event=pr
